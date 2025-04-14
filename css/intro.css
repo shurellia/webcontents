@@ -25,10 +25,12 @@ h3 {
 }
 .cth {
     width: 50px; /*헤더의 최소 넓이*/
+    height: 50px; /*헤더의 최소 높이*/
     text-align: center; /*헤더 가운데 정렬*/
 }
 .ctb {
-    width: 150px; /*바디의 최소 넓이*/
+    width: 200px; /*바디의 최소 넓이*/
+    height: 50px; /*바디의 최소 높이*/
 }
 #sch th {
     background-color: lightgrey; /* 헤더의 색상*/
