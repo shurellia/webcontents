@@ -1,0 +1,40 @@
+body{
+    background-color: aliceblue; /*배경색*/
+}
+#intro{
+    font-family: '휴먼편지체', sans-serif; /*자기소개의 p글꼴*/
+    font-size: 1em;
+    text-indent: 1em;
+}
+div.nlist {
+    border-style: dotted blue; /*목차 경계 파란색 점선*/
+}
+#outline{
+    border: 3px dotted blue;
+}
+h1{
+    color: brown; /*갈색, 가운데 정렬*/
+    text-align: center;
+}
+h3 {
+    text-shadow: 1px 1px 3px lightskyblue; /*텍스트 그림자 청자색*/
+}
+#sch {
+    background-color: whitesmoke; /*시간표 배경*/
+    table-layout: auto;
+}
+.cth {
+    width: 50px; /*헤더의 최소 넓이*/
+    text-align: center; /*헤더 가운데 정렬*/
+}
+.ctb {
+    width: 150px; /*바디의 최소 넓이*/
+}
+#sch th {
+    background-color: lightgrey; /* 헤더의 색상*/
+}
+.foot {
+    background-color: orange;
+    border-radius: 40px; /*모서리 둥글게, 오랜지색, 안쪽 여백*/
+    padding:20px;
+}
