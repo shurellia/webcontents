@@ -21,17 +21,18 @@ h3 {
 }
 #sch {
     background-color: whitesmoke; /*시간표 배경*/
-    table-layout: auto;
+    table-layout: auto; /*테이블 자동 크기 조정*/
+    border-collapse: collapse; /*중복 테두리 합치기*/
 }
 .cth {
     width: 50px; /*헤더의 최소 넓이*/
-    height: 50px; /*헤더의 최소 높이*/
+    height: 50px;  /*헤더의 최소 높이*/ 
     text-align: center; /*헤더 가운데 정렬*/
 }
 .ctb {
     width: 200px; /*바디의 최소 넓이*/
     height: 50px; /*바디의 최소 높이*/
-    text-align: center; /*텍스트 가운데 정렬*/
+    text-align: center; /*바디 가운데 정렬*/
 }
 #sch th {
     background-color: lightgrey; /* 헤더의 색상*/
